@@ -1,11 +1,13 @@
 //import { useState } from 'react'
 import './App.css'
-import { Card } from './components/Card/Card'
-import { Usuario } from './components/Usuario/Usuario'
-import { Counter } from './components/Counter/Counter'
-import { Textt } from './components/Textt/Textt'
-import { TextInput } from './components/TextInput/TextInput'
-import { ItemListContainer } from './components/ItemListContainer/ItemListContainer'
+import PokeList from './components/PokeList'
+// import Pokemon from './components/Pokemon'
+// import { Card } from './components/Card/Card'
+// import { Usuario } from './components/Usuario/Usuario'
+// import { Counter } from './components/Counter/Counter'
+// import { Textt } from './components/Textt/Textt'
+// import { TextInput } from './components/TextInput/TextInput'
+// import { ItemListContainer } from './components/ItemListContainer/ItemListContainer'
 
 
 function App() {
@@ -19,9 +21,11 @@ function App() {
 
       <Counter />
       <hr />
-      <Textt /> */}
+      <Textt /> 
 
-        <ItemListContainer />
+        <ItemListContainer />*/}
+
+        <PokeList />
   
     </div>
   )

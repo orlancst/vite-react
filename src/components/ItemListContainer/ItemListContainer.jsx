@@ -6,7 +6,7 @@ import { ItemList } from "./ItemList";
 export const ItemListContainer = () => {
 
     const [productos, setProductos] = useState([]);
-    console.log(productos.length);
+    // console.log(productos.length);
     
 
     const askProducts = () => {
@@ -20,7 +20,7 @@ export const ItemListContainer = () => {
         askProducts()
             .then((res) => {
                 setProductos(res);
-                console.log(productos.length);
+                // console.log(productos.length);
             })
 
     }, []) 

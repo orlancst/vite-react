@@ -1,3 +1,5 @@
+import Item from "./Item";
+
 export const ItemList = ( {productos} ) => {
     return (
         <div>
@@ -7,12 +9,7 @@ export const ItemList = ( {productos} ) => {
 
                 productos.map((prod) => {
                     return (
-                        <div key={prod.id}>
-                            <img src={prod.image} alt={prod.title} />
-                            <h2>{prod.title}</h2>
-                            <p><b>${prod.price}</b></p>
-                            <p>{prod.description}</p>
-                        </div>
+                        <Item key={prod.id} prod={prod} />
                     )
                 })
             }
